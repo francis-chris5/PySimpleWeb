@@ -9,6 +9,7 @@ Some reference files for the critical parts to run python scripts as cgi scripts
   <p>AddHandler cgi-script .py</p>
   <p>ScriptInterpreterSource Registry-Strict</p>
 </blockqoute>
+
 <p>This will redirect standard output from the terminal on the server to the client it is currently connected to, i.e. the Python print(...) method will be sent to the client.</p>
 <br>
 <br>
@@ -17,6 +18,7 @@ Some reference files for the critical parts to run python scripts as cgi scripts
   <p>Probably</p>
   <p>#!/bin/python3.10</p>
 </blockqoute>
+
 <p>It is different in the files here as I tested this using a xampp localhost virtual server on a Windows machine</p>
 <br>
 <br>
