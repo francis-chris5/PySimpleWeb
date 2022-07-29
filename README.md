@@ -14,7 +14,7 @@ Some reference files for the critical parts to run python scripts as cgi scripts
   
   <p>ScriptInterpreterSource Registry-Strict</p>
   
-</blockqoute>
+</blockquote>
 
 <p>This will redirect standard output from the terminal on the server to the client it is currently connected to, i.e. the Python print(...) method will be sent to the client.</p>
 
@@ -24,13 +24,13 @@ Some reference files for the critical parts to run python scripts as cgi scripts
 
 <p>Then create a python script and make the FIRST LINE a sh-bang that points to your python interpeter</p>
 
-<blockqoute>
+<blockquote>
   
   <p>Probably</p>
   
   <p>#!/bin/python3.10</p>
   
-</blockqoute>
+</blockquote>
 
 <p>It is different in the files here as I tested this using a xampp localhost virtual server on a Windows machine</p>
 
